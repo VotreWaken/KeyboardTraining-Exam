@@ -1,0 +1,116 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Red Button Style-->
+    <Style x:Key="RedBtn" TargetType="Button">
+
+        <Setter Property="Background" Value="{DynamicResource Red}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--HERE QUESTION-->
+        <!--<EventSetter Event="Click" Handler="InputBtnClick"/>-->
+
+        <!--Red Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <!--Yellow Button Style-->
+    <Style x:Key="YellowBtn" TargetType="Button">
+
+        <Setter Property="Background" Value="{DynamicResource Yellow}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--Yellow Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <!--Green Button Style-->
+    <Style x:Key="GreenBtn" TargetType="Button">
+
+        <Setter Property="Background" Value="{DynamicResource Green}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--Green Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <!--Blue Button Style-->
+    <Style x:Key="BlueBtn" TargetType="Button">
+
+        <Setter Property="Background" Value="{DynamicResource Blue}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--Blue Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="7" />
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <!--Purple Button Style-->
+    <Style x:Key="PurpleBtn" TargetType="Button">
+
+
+        <Setter Property="Background" Value="{DynamicResource Purple}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--Purple Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+
+    </Style>
+
+    <!--Purple Button Style-->
+    <Style x:Key="SpaceBtn" TargetType="Button">
+
+        <Setter Property="Height" Value="40"></Setter>
+        <Setter Property="Background" Value="{DynamicResource Space}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+        <!--Purple Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+
+    </Style>
+
+    <!--Gray Button Style-->
+    <Style x:Key="GrayBtn" TargetType="Button">
+
+
+        <Setter Property="Background" Value="{DynamicResource Gray}"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Margin" Value="1"></Setter>
+
+        <!--Gray Button Border Style-->
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="8" />
+            </Style>
+        </Style.Resources>
+
+    </Style>
+</ResourceDictionary>
